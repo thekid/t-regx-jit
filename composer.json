@@ -36,7 +36,7 @@
     "files": [
       "helper/helper.php"
     ],
-    "psr-4": {
+    "jit": {
       "TRegx\\": "src/"
     }
   },
@@ -59,7 +59,8 @@
   },
   "require": {
     "php": ">=7.1.0",
-    "ext-mbstring": "*"
+    "ext-mbstring": "*",
+    "xp-framework/jit": "dev-main"
   },
   "require-dev": {
     "ext-json": "*",
@@ -72,5 +73,10 @@
       "/test/**",
       "/test"
     ]
+  },
+  "config": {
+    "allow-plugins": {
+      "xp-framework/jit": true
+    }
   }
 }
