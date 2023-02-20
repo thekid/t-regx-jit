@@ -60,7 +60,7 @@
   "require": {
     "php": ">=7.1.0",
     "ext-mbstring": "*",
-    "xp-framework/jit": "dev-main"
+    "xp-framework/jit": "^0.1"
   },
   "require-dev": {
     "ext-json": "*",
